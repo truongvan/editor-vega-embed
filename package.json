@@ -1,0 +1,32 @@
+{
+    "name": "editor-vega-embed",
+    "version": "0.1.0",
+    "keywords": [
+        "editorjs",
+        "editor.js",
+        "tool"
+    ],
+    "description": "Vega Lite Wrapper for Editor.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/truongvan/editor-vega-embed"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "author": {
+        "name": "Truong Van",
+        "email": "truongvan@live.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^18.15.11",
+        "typescript": "^5.0.2"
+    },
+    "dependencies": {
+        "vega-embed": "^6.21.3"
+    }
+}
