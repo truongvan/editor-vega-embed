@@ -17,7 +17,7 @@ npm install editor-vega-embed
 In your project where you have set up Editor.js, import the `VegaLite` class from the package:
 
 ```javascript
-import VegaLite from "vega-lite-wrapper";
+import VegaLite from "editor-vega-embed";
 ```
 
 Add the VegaLite class to the tools configuration in your Editor.js instance:
